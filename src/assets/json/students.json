@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Crimson",
+    "age": 14
+  },
+  {
+    "id": 2,
+    "name": "Navy",
+    "age": 15
+  },
+  {
+    "id": 3,
+    "name": "Violet",
+    "age": 14
+  },
+  {
+    "id": 4,
+    "name": "Coral",
+    "age": 16
+  },
+  {
+    "id": 5,
+    "name": "Celadon",
+    "age": 12
+  },
+  {
+    "id": 6,
+    "name": "Evergreen",
+    "age": 14
+  }
+]

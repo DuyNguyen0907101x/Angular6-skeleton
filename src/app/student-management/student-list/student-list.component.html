@@ -1,0 +1,8 @@
+<ng-container *ngIf="studentList | async">
+  <h4>Student List</h4>
+  <ul>
+    <li *ngFor="let student of studentList | async">
+      <a [routerLink]="['/student-management/students', student.id]">{{student.name}}</a>
+    </li>
+  </ul>
+</ng-container>

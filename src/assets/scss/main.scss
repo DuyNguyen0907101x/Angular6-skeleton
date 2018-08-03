@@ -1,0 +1,30 @@
+@import 'vendors/bootstrap-custom';
+@import '~bootstrap/scss/bootstrap';
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+@import 'abstracts/space-helper';
+@import 'abstracts/animate';
+
+@import 'base/colors';
+@import 'base/images';
+@import 'base/typography';
+
+// @import 'vendors/bootstrap-custom';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/section';
+@import 'layout/content';
+@import 'layout/footer';
+
+@import 'components/block';
+@import 'components/buttons';
+@import 'components/input';
+@import 'components/navigation-tab';
+@import 'components/table';
