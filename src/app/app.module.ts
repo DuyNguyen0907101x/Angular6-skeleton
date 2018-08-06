@@ -7,7 +7,6 @@ import { RouterModule, PreloadAllModules} from '@angular/router';
 import { routes } from './app.routing';
 
 import { AppComponent } from './app.component';
-// import { UIComponentListComponent } from './ui-component-list/ui-component-list.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -17,12 +16,11 @@ import { ExampleComponent } from './example/example.component';
 @NgModule({
   declarations: [
     AppComponent,
-    // UIComponentListComponent,
     HeaderComponent,
     PageNotFoundComponent,
     FooterComponent,
     HomePageComponent,
-    ExampleComponent
+    ExampleComponent,
   ],
   imports: [
     BrowserModule,

@@ -23,6 +23,10 @@ export const routes: Routes = [
     loadChildren: './student-management/student-management.module#StudentManagementModule'
   },
   {
+    path: 'another',
+    loadChildren: './another/another.module#AnotherModule'
+  },
+  {
     path: '**',
     component: PageNotFoundComponent
   }
